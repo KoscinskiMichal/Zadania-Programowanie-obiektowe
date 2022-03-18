@@ -27,6 +27,16 @@ public class Main {
         autobus = in.next();
 
         pogoda(deszcz,autobus);
+
+        String z;
+        String p;
+        System.out.println("Czy otrzymales znizke  ");
+        z = in.next();
+        System.out.println("Czy otrzymales premie  ");
+        p = in.next();
+
+        samochod(z,p);
+
     }
     public static void rownanie(double a,double b, double c)
     {
@@ -103,16 +113,15 @@ public class Main {
         }
     }
 
-
-
-
-
-
-
-
-
-
-
+    public static void samochod(String znizka,String premia) {
+        if(!znizka.equals("tak") || premia.equals("tak")){
+            System.out.println("Mozesz kupic samochod! "+"Znizki na samochod nie ma");
+        } if(!znizka.equals("tak") || !premia.equals("tak")){
+            System.out.println("Zakup samochodu trzeba bedzie odlozyc na pozniej... "+"Znizki na samochod nie ma");
+        } if(znizka.equals("tak") || premia.equals("tak")){
+            System.out.println("Mozesz kupic samochod! ");
+        }
+    }
 
 
 }
