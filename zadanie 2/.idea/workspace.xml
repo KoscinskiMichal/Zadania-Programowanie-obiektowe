@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3a3591f-d9d8-41ab-ad9c-134819b569bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/kalkulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Zadania PO.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../p1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../p1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../p1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../p1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../p1/out/production/p1/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../p1/p1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../p1/src/com/company/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zadanie 2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zadanie 2/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +83,10 @@
       <workItem from="1647611086995" duration="224000" />
       <workItem from="1647611526617" duration="87000" />
       <workItem from="1647611636555" duration="25000" />
-      <workItem from="1647611686617" duration="3914000" />
+      <workItem from="1647611686617" duration="4346000" />
+      <workItem from="1647864033225" duration="300000" />
+      <workItem from="1647865694027" duration="487000" />
+      <workItem from="1648067203081" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="zadanie 2.4">
       <created>1647613201200</created>
@@ -107,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647613201200</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="zadanie 2 gotowe">
+      <created>1647615949509</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647615949509</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zadanie 2.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="zadanie 2.4" />
+    <MESSAGE value="zadanie 2 gotowe" />
+    <option name="LAST_COMMIT_MESSAGE" value="zadanie 2 gotowe" />
   </component>
 </project>
