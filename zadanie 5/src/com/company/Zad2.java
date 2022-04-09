@@ -13,15 +13,15 @@ public class Zad2 {
         this.l_pieter = l_pieter;
         this.rokBudowy = rokBudowy;
     }
-    public long getDataBudowy(){
+    public long getWiek(){
         LocalDate today = LocalDate.now();
         long ilelat = ChronoUnit.YEARS.between(rokBudowy,today);
         return ilelat;
     }
 
     public void getInfo(){
-        System.out.println("Budynek "+nazwa+"posada "+l_pieter+" pieter"
-        +" wiek budynku "+ getDataBudowy());
+        System.out.println("Budynek "+nazwa+" posiada "+l_pieter+" pieter"
+        +" wiek budynku to "+ getWiek()+" lat");
     }
 
 }
