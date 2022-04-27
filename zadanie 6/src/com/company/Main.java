@@ -6,7 +6,12 @@ public class Main {
 	    Punkt pkt1=new Punkt();
         Punkt pkt2=new Punkt();
         Punkt pkt3=new Punkt();
-        Okrag okr =new Okrag()
+        Okrag okr =new Okrag();
+
+        pkt1.getX();
+        pkt2.opis();
+        pkt3.przesun(2,3);
+
 
         Figura f1 = new Figura();
         Trojkat t1 = new Trojkat(5,6);

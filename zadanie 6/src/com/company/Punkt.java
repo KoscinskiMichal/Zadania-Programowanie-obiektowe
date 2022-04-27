@@ -1,8 +1,8 @@
 package com.company;
 
 public class Punkt {
-    public double x;
-    public double y;
+    public double x=0;
+    public double y=0;
 
     public Punkt() {
 
