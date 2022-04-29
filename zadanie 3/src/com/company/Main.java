@@ -33,6 +33,7 @@ public class Main {
         }
         return s / n;
     }
+
     public static void zad2(){
         int d=0,u=0;
         int sd=0,su=0;
@@ -50,6 +51,7 @@ public class Main {
         }
         System.out.println("suma dodatnich: "+(sd)+" liczba dodatnich: "+(d)+" suma ujemnych: "+(su)+" 1liczba ujemnych: "+(u));
     }
+
     public static double zad3(){
         int n = wczytaj();
         double suma=0;
@@ -63,6 +65,7 @@ public class Main {
         }
         return suma;
     }
+
     public static double zad4(){
         int n = wczytaj();
         double suma=0;
@@ -76,6 +79,7 @@ public class Main {
         }
         return suma;
     }
+
     public static boolean zad5(String t){
         int n = t.length();
         for (int i = 0; i < n/2; i++) {
@@ -87,9 +91,4 @@ public class Main {
         }
         return true;
     }
-
-
-
-
-
 }

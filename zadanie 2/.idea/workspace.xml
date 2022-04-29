@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3a3591f-d9d8-41ab-ad9c-134819b569bf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../p2/out/production/p2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../p2/out/production/p2/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p2/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../p2/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zadanie 2/com/company/kalkulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zadanie 2/com/company/kalkulator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.kalkulator">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="zadanie 2" />
@@ -87,6 +90,8 @@
       <workItem from="1647864033225" duration="300000" />
       <workItem from="1647865694027" duration="487000" />
       <workItem from="1648067203081" duration="7000" />
+      <workItem from="1649508051210" duration="133000" />
+      <workItem from="1649783491325" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="zadanie 2.4">
       <created>1647613201200</created>
