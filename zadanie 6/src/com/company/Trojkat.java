@@ -1,5 +1,5 @@
 package com.company;
-class Trojkat 
+class Trojkat extends Figura
 {
 	double wys=0, podst=0;
 
@@ -8,5 +8,13 @@ class Trojkat
 		this.wys = wys;
 		this.podst = podst;
 	}
-	
+
+	public Trojkat(String kolor, double wys, double podst) {
+		super(kolor);
+		this.wys = wys;
+		this.podst = podst;
+	}
+	String opis(){
+		return "Klasa Trojkat. Kolor obiektu: "+kolor+"wys="+wys+"podst="+podst;
+	}
 }

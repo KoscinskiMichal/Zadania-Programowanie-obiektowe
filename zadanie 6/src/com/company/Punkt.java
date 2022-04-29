@@ -1,11 +1,12 @@
 package com.company;
 
 public class Punkt {
-    public double x=0;
-    public double y=0;
+    public double x;
+    public double y;
 
     public Punkt() {
-
+        this.x=0;
+        this.y=0;
     }
 
     public Punkt(double x, double y) {
@@ -34,9 +35,11 @@ public class Punkt {
         this.y=0;
     }
     void opis(){
-
+        System.out.println("x="+this.x);
+        System.out.println("y="+this.y);
     }
     void przesun(int x,int y){
-
+        this.x+=x;
+        this.y+=y;
     }
 }
