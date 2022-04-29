@@ -1,6 +1,5 @@
 package com.company;
 
-import java.net.PortUnreachableException;
 
 public class Prostokat {
     double a,b;
