@@ -21,7 +21,7 @@ public class Ksiazka {
     }
 
     void info(){
-        System.out.println("Ksiazka "+autor+" "+tytul+" "+rok+" "+opis);
+        System.out.println("Ksiazka "+autor+" "+tytul+" "+rok+" "+opis+" "+cena+"zl");
     }
 
 }

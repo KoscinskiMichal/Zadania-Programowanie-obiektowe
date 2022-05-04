@@ -1,6 +1,6 @@
 package com.company;
 
-import java.util.Scanner;
+
 
 public class Main {
 
@@ -8,25 +8,33 @@ public class Main {
 	    Powiesc harry = new Powiesc("Jk Rowling","Harry Potter","Harry rozpoczyna pierwszy rok ...",30,1998,12,240,"Fantasy");
         Podrecznik fizykakwantowa = new Podrecznik("Jan Kowalski","Fizyka kwantowa dla przedszkolakow","Fizyka kwantowa od najmlodszych lat...",40,2012,"Fizyka",8,160);
         Klient michal = new Klient("Michał",100);
+        Ksiazka PanTadeusz = (Ksiazka) new Powiesc("Adam Mickiewicz","Pan Tadeusz, czyli ostatni zajazd na Litwie","Pan Tadeusz wraca...",50,1834,12,250,"epika");
+
+
+
         Ksiegarnia nowa = new Ksiegarnia(new Ksiazka[]{harry,fizykakwantowa},"nowa");
+
+
         System.out.println("Witamy w ksiagarni");
         for (int i = 0; i < nowa.polka.length; i++) {
             System.out.print(i+1 + ".");nowa.polka[i].info();
         }
 
-        Scanner in = new Scanner(System.in);
 
-        int w = in.nextInt()-1;
+        if(PanTadeusz instanceof Powiesc){
+            Powiesc PanT = (Powiesc)PanTadeusz;
+            PanTadeusz.info();
+            michal.kup(PanT);
+        }
 
-        michal.kup(nowa.polka[w]);
+        michal.kup(nowa.polka[1]);
 
-        int w1= in.nextInt()-1;
 
-        michal.kup(nowa.polka[w1]);
+        michal.kup(nowa.polka[0]);
 
-        if(w==w1){
-            nowa.paragon(new Ksiazka[]{nowa.polka[w]});
-        }else nowa.paragon(new Ksiazka[]{nowa.polka[w],nowa.polka[w1]});
+
+
+        nowa.paragon(new Ksiazka[]{PanTadeusz,nowa.polka[1]});
 
     }
 }

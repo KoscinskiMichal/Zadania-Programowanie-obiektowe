@@ -11,7 +11,31 @@ public class Powiesc extends Ksiazka{
         this.rodzaj = rodzaj;
     }
 
+    public int getRozdzialy() {
+        return rozdzialy;
+    }
+
+    public void setRozdzialy(int rozdzialy) {
+        this.rozdzialy = rozdzialy;
+    }
+
+    public int getStrony() {
+        return strony;
+    }
+
+    public void setStrony(int strony) {
+        this.strony = strony;
+    }
+
+    public String getRodzaj() {
+        return rodzaj;
+    }
+
+    public void setRodzaj(String rodzaj) {
+        this.rodzaj = rodzaj;
+    }
+
     void info(){
-        System.out.println("Powiesc "+autor+" "+tytul+" r."+rok+" "+opis+" "+rodzaj+" l.stron "+strony);
+        System.out.println("Powiesc "+autor+" "+tytul+" r."+rok+" "+opis+" "+rodzaj+" l.stron "+strony+" "+cena+"zl");
     }
 }

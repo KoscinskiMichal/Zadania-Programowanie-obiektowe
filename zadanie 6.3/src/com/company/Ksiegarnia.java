@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Ksiegarnia {
     Ksiazka[] polka = new Ksiazka[]{};
     String nazwa;
-    LocalDate data = LocalDate.();
+    LocalDate data = LocalDate.now();
 
     public Ksiegarnia() {
     }

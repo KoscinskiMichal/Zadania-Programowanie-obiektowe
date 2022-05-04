@@ -12,7 +12,7 @@ public class Podrecznik extends Ksiazka {
     }
 
     void info() {
-        System.out.println("Podrecznik "+autor+" "+tytul+" r."+rok+" "+opis+" "+tematyka+" l.stron "+strony);
+        System.out.println("Podrecznik "+autor+" "+tytul+" r."+rok+" "+opis+" "+tematyka+" l.stron "+strony+" "+cena+"zl");
 
     }
 }
