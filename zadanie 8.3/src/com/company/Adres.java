@@ -18,9 +18,8 @@ public class Adres {
         } else this.kodPocztowy = kodPocztowy;
 
         if (numerDomu <= 0) {
-            throw new NieprawidlowyAdresException("numer domu musi byc wiekrzy od 0");
+            throw new NieprawidlowyAdresException("numer domu musi byc wiekszy od 0");
         } else this.numerDomu = numerDomu;
     }
-
 
 }
