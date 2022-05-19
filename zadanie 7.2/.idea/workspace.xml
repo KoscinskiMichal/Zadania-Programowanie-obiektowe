@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c316a67-4d1b-4259-9160-3e32c5367af3" name="Changes" comment="" />
+    <list default="true" id="4c316a67-4d1b-4259-9160-3e32c5367af3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,6 +109,9 @@
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -121,6 +127,9 @@
       <workItem from="1651698686686" duration="841000" />
       <workItem from="1651826268743" duration="226000" />
       <workItem from="1651827993035" duration="8073000" />
+      <workItem from="1651837962335" duration="169000" />
+      <workItem from="1651847503552" duration="643000" />
+      <workItem from="1652731099157" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="zadanie 7.1">
       <created>1651837564288</created>
